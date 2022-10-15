@@ -1,4 +1,4 @@
-#learning react
+# learning react
 
 My project, where i try to learn basics of react on building little wiki for me to not get so lost in many names during reading Silmarillion
 
