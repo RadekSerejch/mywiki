@@ -48,5 +48,28 @@
 }
 
 .content{
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: lightgray;
 }
+
+.listContent{
+  background-color: #ABABAB;
+  padding: 15px;
+}
+.listItem{
+  padding: 15px;
+  
+  background-color: lightgray;
+}
+
+.itemHeader p{
+  margin-left: auto;
+  text-align: right;
+  padding-right: 10px;
+}
+.itemHeader{
+  align-items: center;
+  display: flex;
+}
+

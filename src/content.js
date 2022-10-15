@@ -1,3 +1,6 @@
+import ListItem from "./listItem";
+import UseFetch from "./useFetch";
+
 const content = () => {
     const handleSubmit = () => {
         console.log("button clicked");
@@ -14,6 +17,8 @@ const content = () => {
         })
     }
 
+    const { error, isPending, data: items } = UseFetch('http://localhost:8000/items')
+
     return ( 
         <div className="content">
             <h1>some content here</h1>
@@ -21,6 +26,11 @@ const content = () => {
         <button onClick={handleSubmit}>
         click to add data
         </button>
+
+        { error && <div>{ error }</div> }
+        { isPending && <div>Loading...</div> }
+        { items && <ListItem items={items} /> }
+
         </div>
     );
 }
