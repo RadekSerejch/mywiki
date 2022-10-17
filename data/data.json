@@ -1,34 +1,3 @@
 {
-  "items": [
-    {
-      "name": "galadriel",
-      "description": "rings of power wonder woman",
-      "author": "pepa",
-      "id": 1
-    },
-    {
-      "name": "galadriel",
-      "description": "rings of power wonder woman",
-      "author": "pepa",
-      "id": 2
-    },
-    {
-      "name": "galadriel",
-      "description": "rings of power wonder woman",
-      "author": "pepa",
-      "id": 3
-    },
-    {
-      "name": "galadriel",
-      "description": "rings of power wonder woman",
-      "author": "pepa",
-      "id": 4
-    },
-    {
-      "name": "galadriel",
-      "description": "rings of power wonder woman",
-      "author": "pepa",
-      "id": 5
-    }
-  ]
+  "items": []
 }
