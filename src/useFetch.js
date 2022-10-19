@@ -1,7 +1,7 @@
 //took from git
 import { useState, useEffect } from 'react';
 
-const useFetch = (url) => {
+const useFetch = (url,btnClick) => {
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(true);
   const [error, setError] = useState(null);
@@ -34,7 +34,7 @@ const useFetch = (url) => {
 
     // abort the fetch
     return () => abortCont.abort();
-  }, [url])
+  }, [url,btnClick])
 
   return { data, isPending, error };
 }

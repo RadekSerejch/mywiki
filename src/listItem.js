@@ -1,18 +1,17 @@
 
 
-const ListItem = ({ items }) => {
+const ListItem = (props) => {
 
     const handleClick = (id) =>{
-        console.log("delete clicked" +id);
         fetch('http://localhost:8000/items/' + id, {
             method: 'DELETE'
         })
-        
+        props.btnClick();
     }
 
     return (
         <div className="list">
-            {items.map(item =>
+            {props.items.map(item =>
                 <div className="listItem" key = { item.id }>
                 <div className="listContent">
                     <div className="itemHeader">
