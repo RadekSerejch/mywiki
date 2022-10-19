@@ -25,18 +25,18 @@ const Addnew = () => {
         <div className="content">
             <form onSubmit={handleSubmit}>
                 <label>
-                    Name:
+                    <p className="inputName">Name:</p>
                     <input type = "text" required value={name} onChange = {(e) => {setName(e.target.value)}}></input>
                 </label>
                 <label>
-                    description:
-                    <input type = "text" required value={description} onChange = {(e) => {setDescription(e.target.value)}}></input>
+                    <p className="inputName">description:</p>
+                    <input className="inpDesc" type = "text" required value={description} onChange = {(e) => {setDescription(e.target.value)}}></input>
                 </label>
                 <label>
-                    Author:
+                    <p className="inputName">Author:</p>
                     <input type = "text" required value={author} onChange = {(e) => {setAuthor(e.target.value)}}></input>
                 </label>
-                <button>submit</button>
+                <button className="btnSbmt">submit</button>
             </form>
         </div>
         

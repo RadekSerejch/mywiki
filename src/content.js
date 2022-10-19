@@ -13,7 +13,7 @@ const Content = () => {
 
     return ( 
         <div className="content">
-            <h1>some content here</h1>
+            <h1>all notes</h1>
 
         
 
