@@ -1,3 +1,22 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "turiin",
+      "description": "wielder of gurthang, the black sword",
+      "author": "brember",
+      "id": 1
+    },
+    {
+      "name": "glorfindel",
+      "description": "balrogs bane",
+      "author": "brm",
+      "id": 2
+    },
+    {
+      "name": "fingolfin",
+      "description": "most badass high king of noldor, wielder of ringil, sword that wounded morgoth himself",
+      "author": "brm",
+      "id": 3
+    }
+  ]
 }
