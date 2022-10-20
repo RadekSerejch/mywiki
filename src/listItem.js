@@ -9,9 +9,17 @@ const ListItem = (props) => {
         props.btnClick();
     }
 
+    const filteredData = props.items.filter((el) => {
+        if (props.filter === ''){
+            return el;
+        }else{
+            return el.name.toLowerCase().includes(props.filter)
+        }
+    })
+
     return (
         <div className="list">
-            {props.items.map(item =>
+            {filteredData.map(item =>
                 <div className="listItem" key = { item.id }>
                 <div className="listContent">
                     <div className="itemHeader">

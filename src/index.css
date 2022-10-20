@@ -45,7 +45,8 @@
 }
 
 .links a:hover{
-  background-color: lightcyan;
+  background-color: black;
+  color: white;
 }
 
 .content{
@@ -100,4 +101,13 @@
 .navbar p{
   font-size: 35px;
   font-weight: bolder;
+}
+.searchbar {
+  display: flex; 
+  justify-content: flex-end;
+  margin-top: -25px;
+  }
+.content h1{
+  padding-left: 15px;
+  padding-top: 15px;
 }
